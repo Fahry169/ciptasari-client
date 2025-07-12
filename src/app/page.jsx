@@ -1,9 +1,13 @@
 "use client";
 
+import Hero from "@/component/Home/Hero";
+import Sambutan from "@/component/Home/Sambutan";
+
 export default function Home() {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Halo</h1>
+      <Hero/>
+      <Sambutan/>
     </div>
   );
 }
