@@ -1,4 +1,6 @@
 "use client";
+import { Button } from "@heroui/react";
+import { InfoIcon } from "@phosphor-icons/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -14,18 +16,27 @@ const Hero = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(/logo/logo.png)`,
+        backgroundImage: `url(/assets/home.jpg)`,
       }}
-      data-aos=""
-      className="space-y-2 w-full h-screen bg-cover bg-center bg-no-repeat"
+      className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center"
     >
-      <div className="absolute left-10 md:left-16 lg:left-24 top-1/2 -translate-y-1/2 md:translate-y-0 space-y-2">
-
-      <h1 className="text-5xl font-bold">Selamat Datang</h1>
-      <h1 className="text-5xl font-bold">Website Resmi Desa Ciptasari</h1>
-      <h2 className="text-2xl font-semibold">
-        Sumber Informasi terbaru tentang Desa Ciptasari
-      </h2>
+      <div data-aos="fade-up" className="space-y-2 px-4 md:text-left md:mt-20 md:ml-24 ml-0 text-center">
+        <h1 className="text-5xl font-bold text-white">Selamat Datang di</h1>
+        <h1 className="text-5xl font-bold text-white">Desa Ciptasari</h1>
+        <h2 className="text-xl  text-white">
+          Desa yang asri dengan potensi alam melimpah dan potensi wisata yang
+          menarik.
+        </h2>
+        <div className="pt-4">
+          <Button
+            className="text-lg text-red-700 font-semibold bg-white"
+            size="lg"
+            href="/berita"
+          >
+            <InfoIcon size={28} weight="bold" />
+            Profile Desa
+          </Button>
+        </div>
       </div>
     </div>
   );
