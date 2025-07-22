@@ -2,7 +2,10 @@ import { Image, ScrollShadow } from "@heroui/react";
 
 const Sambutan = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center md:gap-20 gap-2 mt-24">
+    <div
+      className="flex flex-col md:flex-row items-center justify-center md:gap-20 gap-2 pt-24"
+      id="sambutan"
+    >
       <div className="relative">
         <div className="md:w-80 w-64 md:h-80 h-64 bg-white rounded-full p-4 shadow-lg flex items-center justify-center">
           <Image

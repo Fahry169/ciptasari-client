@@ -13,28 +13,45 @@ const Hero = () => {
       offset: 100,
     });
   }, []);
+
+  // Function untuk smooth scroll
+  const handleScrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    }
+  };
+
   return (
     <div
       style={{
         backgroundImage: `url(/assets/home.jpg)`,
       }}
       className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center"
+      id="hero"
     >
-      <div data-aos="fade-up" className="space-y-2 px-4 md:text-left md:mt-20 md:ml-24 ml-0 text-center">
+      <div
+        data-aos="fade-up"
+        className="space-y-2 px-4 md:text-left md:mt-20 md:ml-24 ml-0 text-center"
+      >
         <h1 className="text-5xl font-bold text-white">Selamat Datang di</h1>
         <h1 className="text-5xl font-bold text-white">Desa Ciptasari</h1>
-        <h2 className="text-xl  text-white">
+        <h2 className="text-xl text-white">
           Desa yang asri dengan potensi alam melimpah dan potensi wisata yang
           menarik.
         </h2>
         <div className="pt-4">
           <Button
-            className="text-lg text-red-700 font-semibold bg-white"
+            className="text-lg text-red-700 font-semibold bg-white cursor-pointer"
             size="lg"
-            href="/berita"
+            onPress={() => handleScrollToSection("berita")}
           >
             <InfoIcon size={28} weight="bold" />
-            Profile Desa
+            Berita
           </Button>
         </div>
       </div>
@@ -42,4 +59,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero;  

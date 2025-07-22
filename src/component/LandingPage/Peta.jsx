@@ -1,9 +1,13 @@
 const Peta = () => {
   return (
-    <div className="max-w-7xl mx-auto p-4 mt-24">
+    <div className="max-w-7xl mx-auto p-4 pt-24" id="peta">
       <div className="space-y-2 mb-8">
-        <h1 className="text-5xl font-bold md:text-left text-center text-red-600">PETA DESA</h1>
-        <h2 className="text-xl md:text-left text-center">Menampilkan Peta Desa Ciptasari berdasarkan Maps Digital</h2>
+        <h1 className="text-5xl font-bold md:text-left text-center text-red-600">
+          PETA DESA
+        </h1>
+        <h2 className="text-xl md:text-left text-center">
+          Menampilkan Peta Desa Ciptasari berdasarkan Maps Digital
+        </h2>
       </div>
       <div className="w-full h-[500px]">
         <iframe

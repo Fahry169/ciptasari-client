@@ -74,7 +74,7 @@ const Penduduk = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto p-4 mt-24">
+    <div className="max-w-7xl mx-auto p-4 pt-24" id="penduduk">
       <div className="space-y-2 mb-12">
         <h1 className="text-5xl font-bold md:text-left text-center text-red-600">
           Administrasi Penduduk
@@ -101,25 +101,6 @@ const Penduduk = () => {
           </div>
         ))}
       </div>
-
-      {/* Detail Information
-      <div className="bg-gray-800 rounded-lg p-6 text-white">
-        <h3 className="text-xl font-bold mb-4">Detail Statistik Penduduk</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {detailData.map((item, index) => (
-            <div
-              key={index}
-              className="flex justify-between items-center py-2 border-b border-gray-600"
-            >
-              <div className="flex items-center gap-3">
-                <span className="text-gray-400">{item.icon}</span>
-                <span className="text-gray-300">{item.label}:</span>
-              </div>
-              <span className="font-bold text-white">{item.value}</span>
-            </div>
-          ))}
-        </div>
-      </div> */}
 
       {/* Summary Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">

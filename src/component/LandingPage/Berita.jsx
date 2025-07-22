@@ -72,7 +72,7 @@ const Berita = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto p-4 mt-24">
+    <div className="max-w-7xl mx-auto p-4 pt-24" id="berita">
       <div className="space-y-2 mb-8">
         <h1 className="text-5xl font-bold md:text-left text-center text-red-600">
           Berita Desa
@@ -88,7 +88,7 @@ const Berita = () => {
         {newsData.map((article) => (
           <div
             key={article.id}
-            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col h-full"
           >
             {/* Article Image */}
             <div className="h-48 bg-gray-200 relative overflow-hidden">
@@ -100,11 +100,11 @@ const Berita = () => {
             </div>
 
             {/* Article Content */}
-            <div className="p-4">
+            <div className="p-4 flex flex-col flex-grow">
               <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-red-600 transition-colors cursor-pointer line-clamp-2">
                 {article.title}
               </h3>
-              <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+              <p className="text-gray-600 text-sm mb-4 line-clamp-3 flex-grow">
                 {article.description}
               </p>
 
@@ -119,9 +119,7 @@ const Berita = () => {
                     <FaCalendarAlt size={14} />
                     <span>{article.date}</span>
                   </div>
-                  
                 </div>
-                
               </div>
 
               {/* Read More Button */}
@@ -131,7 +129,7 @@ const Berita = () => {
             </div>
           </div>
         ))}
-      </div>    
+      </div>
     </div>
   );
 };

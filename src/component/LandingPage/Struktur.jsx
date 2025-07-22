@@ -64,7 +64,7 @@ const Struktur = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto p-4 mt-24">
+    <div className="max-w-7xl mx-auto p-4 pt-24" id="struktur">
       <div className="space-y-2 mb-8">
         <h1 className="text-5xl font-bold md:text-left text-center text-red-600">
           SOTK
@@ -74,7 +74,7 @@ const Struktur = () => {
         </h2>
         <div className="flex justify-between items-center mt-4">
           <button onClick={scrollLeft} className="" aria-label="Scroll left">
-            <ArrowLeftIcon weight="bold" size={26}/>
+            <ArrowLeftIcon weight="bold" size={26} />
           </button>
           <button onClick={scrollRight} className=" " aria-label="Scroll right">
             <ArrowRightIcon weight="bold" size={26} />
