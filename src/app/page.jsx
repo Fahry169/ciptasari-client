@@ -7,6 +7,7 @@ import PetaDigital from "@/component/LandingPage/PetaDigital";
 import Peta from "@/component/LandingPage/Peta";
 import Sambutan from "@/component/LandingPage/Sambutan";
 import Struktur from "@/component/LandingPage/Struktur";
+import Belanja from "@/component/LandingPage/Belanja";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Struktur/>
       <Penduduk/>
       <Berita/>
+      <Belanja/>
     </div>
   );
 }

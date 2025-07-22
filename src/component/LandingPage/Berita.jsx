@@ -1,63 +1,68 @@
-import { Button } from "@heroui/react";
+import { Button, Link } from "@heroui/react";
 import React from "react";
-import { FaUser, FaEye, FaCalendarAlt } from "react-icons/fa";
+import { FaUser, FaCalendarAlt } from "react-icons/fa";
 
 const Berita = () => {
   const newsData = [
     {
       id: 1,
-      title: "MUSDES PERTANGGUNGJAWABAN BUMDESA",
+      title: "Minggon Rutinan Desa Ciptasari",
       description:
-        "Kersik, 21 Mei 2025 – Pemerintah Desa Kersik menggelar Musyawarah Desa (Musdes) untuk membahas laporan pertanggungjawaban Badan Usaha Milik Desa...",
-      image: "/assets/home.jpg",
-      author: "Administrator",
-      date: "22 May 2025",
-      news:"Desa Ciptasari, 25 Juni 2025 – Pemerintah Desa Ciptasari secara rutin melaksanakan Minggon Desa setiap minggunya pada hari Rabu. Kegiatan Minggon merupakan rangkaian acara yang berisi pemaparan kegiatan dan diskusi keberlanjutan desa. Kegiatan Minggon dipimpin oleh Kepala Desa Ciptasari dan dihadiri oleh seluruh perangkat desa, perangkat dusun, perwakilan PKK dan Pos KB, serta perwakilan dari sektor pertanian. Kegiatan diawali dengan pembukaan dari Kepala Desa, lalu dilanjut dengan arahan dari sektor pertanian. Mengingat salah satu potensi Desa Ciptasari adalah sektor pertanian, arahan berfokus pada permasalahan basrek unggas yang mengganggu lahan pertanian. Dalam arahannya, Bapak Marto selaku kepala desa mengatakan bahwa, “Pencegahan harus dilakukan dari awal, jangan sampai dampaknya meluas baru diatasi” ujarnya. Pengarahan selanjutnya dari Ibu Dedeh selaku perwakilan PKK dan Pos KB. Permasalahan yang disoroti adalah himbauan untuk menciptakan desa ramah anak P2TP2A di tingkat desa, pencegahan kekerasan rumah tangga dan kekerasan seksual terhadap anak, serta target untuk segera membentuk ketua posyandu. Melalui kegiatan minggon ini, diharapkan seluruh perangkat desa, perangkat dusun, dan seluruh warga Desa Ciptasari dapat bersinergi untuk menyelesaikan permasalahan yang dihadapi guna keberlangsungan kondisi desa yang lebih baik dan saling bersinergi bersama. (AN)",
+        "Pemerintah Desa Ciptasari melaksanakan Minggon rutin setiap hari Rabu sebagai forum diskusi dan pemaparan kegiatan pembangunan desa.",
+      image: "/assets/minggon.jpg",
+      author: "AN",
+      date: "25 Juni 2025",
+      slug: "minggon-rutinan-desa-ciptasari",
     },
     {
       id: 2,
-      title: "Makkela Kela, Pererat hubungan antar warga",
+      title: "Menjaga Kelestarian Adat: Desa Ciptasari Kembali Gelar Hajat Bumi",
       description:
-        '"Makkela Kela" adalah sebuah tradisi makan bersama yang dilakukan oleh masyarakat Desa Kersik. Acara ini merupakan bentuk perayaan kebersamaan...',
-      image: "/assets/home.jpg",
-      author: "Administrator",
-      date: "05 Sep 2024",
+        "Adat istiadat merupakan kebiasan turun-menurun yang sebaiknya dilestarikan oleh seluruh masyarakat. Desa Ciptasari merupakan salah satu desa yang terus menjaga adat istiadat yang ada di Desa tersebut.",
+      image: "/assets/hajat.jpg",
+      author: "AN",
+      date: "22 Juli 2025",
+      slug: "hajat-bumi-desa-ciptasari",
     },
     {
       id: 3,
-      title: "Pemerintah Desa Kersik Gelar Pelatihan untuk Anggota Linmas",
+      title: "Kolaborasi dengan KKN Unsika, Posyandu Desa Ciptasari Gelar Sosialisasi Stunting dan Cek Kesehatan Gratis",
       description:
-        "Kersik – Pemerintah Desa Kersik baru-baru ini menyelenggarakan pelatihan intensif bagi anggota Perlindungan Masyarakat (Linmas) desa. Kegiatan ini...",
-      image: "/assets/home.jpg",
-      author: "Administrator",
-      date: "05 Sep 2024",
+        "Kedatangan mahasiswa KKN dari Universitas Singaperbangsa Karawang menambah sinergi baru bagi Desa Ciptasari. Berakar pada permasalahan desa akan tingginya akan stunting, mahasiswa KKN dar Unsika merancang program kerja sosialisasi stunting untuk ibu hamil dan balita.",
+      image: "/assets/stunting.jpg",
+      author: "AN",
+      date: "05 Juli 2025",
+      slug: "kolaborasi-kkn-unsika-sosialisasi-stunting",
     },
     {
       id: 4,
-      title: "Gotong Royong Pembersihan Lingkungan",
+      title: "Mahasiswa KKN Unsika Gelar Ciptasari Cup 2025 dengan Pertandingan Voli Antar RT di Desa Ciptasari",
       description:
-        "Warga Desa Kersik bergotong royong membersihkan lingkungan desa dalam rangka menyambut hari besar nasional. Kegiatan ini melibatkan seluruh lapisan masyarakat...",
-      image: "/assets/home.jpg",
-      author: "Administrator",
-      date: "15 Aug 2024",
+        "Desa Ciptasari, 19-20 Juli 2025 – Mahasiswa KKN Unsika baru-baru ini menyelenggarakan turnamen voli bagi warga di Desa Ciptasari. Kegiatan ini merupakan salah satu program kerja yang dilatarbelakangi oleh tingginya minat olahraga voli di Desa Ciptasari.",
+      image: "/assets/voli.jpg",
+      author: "AN",
+      date: "20 Juli 2025",
+      slug: "ciptasari-cup-2025-turnamen-voli",
     },
     {
       id: 5,
-      title: "Peningkatan Infrastruktur Jalan Desa",
+      title: "Gotong Royong Pembersihan Lingkungan",
       description:
-        "Pemerintah Desa Kersik melakukan perbaikan dan peningkatan infrastruktur jalan untuk memperlancar aktivitas warga dan mendukung perekonomian desa...",
+        "Warga Desa Kersik bergotong royong membersihkan lingkungan desa dalam rangka menyambut hari besar nasional.",
       image: "/assets/home.jpg",
       author: "Administrator",
-      date: "10 Jul 2024",
+      date: "15 Aug 2024",
+      slug: "gotong-royong-bersih-desa",
     },
     {
       id: 6,
-      title: "Program Bantuan Sosial untuk Warga Kurang Mampu",
+      title: "Peningkatan Infrastruktur Jalan Desa",
       description:
-        "Desa Kersik mengimplementasikan program bantuan sosial untuk membantu warga kurang mampu melalui berbagai skema bantuan yang telah disiapkan...",
+        "Pemerintah Desa Kersik meningkatkan infrastruktur jalan untuk memperlancar aktivitas warga dan mendukung ekonomi desa.",
       image: "/assets/home.jpg",
       author: "Administrator",
-      date: "28 Jun 2024",
+      date: "10 Jul 2024",
+      slug: "peningkatan-infrastruktur-jalan",
     },
   ];
 
@@ -80,7 +85,6 @@ const Berita = () => {
             key={article.id}
             className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col h-full"
           >
-            {/* Article Image */}
             <div className="h-48 bg-gray-200 relative overflow-hidden">
               <img
                 src={article.image}
@@ -89,7 +93,6 @@ const Berita = () => {
               />
             </div>
 
-            {/* Article Content */}
             <div className="p-4 flex flex-col flex-grow">
               <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-red-600 transition-colors cursor-pointer line-clamp-2">
                 {article.title}
@@ -98,7 +101,6 @@ const Berita = () => {
                 {article.description}
               </p>
 
-              {/* Article Meta */}
               <div className="flex flex-col space-y-2 text-xs text-gray-500">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-1">
@@ -112,8 +114,7 @@ const Berita = () => {
                 </div>
               </div>
 
-              {/* Read More Button */}
-              <Button className="mt-4 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
+              <Button as={Link} href={`/berita/${article.slug}`} className="mt-4 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
                 Baca Selengkapnya
               </Button>
             </div>

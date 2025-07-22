@@ -19,7 +19,7 @@ const NavbarComponent = () => {
 
   const handleSmoothScroll = (e, sectionId) => {
     e.preventDefault();
-    
+
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({
@@ -28,7 +28,7 @@ const NavbarComponent = () => {
         inline: "nearest",
       });
     }
-    
+
     // Close mobile menu if open
     setIsMenuOpen(false);
   };
@@ -50,6 +50,7 @@ const NavbarComponent = () => {
     { href: "#struktur", label: "STOK" },
     { href: "#penduduk", label: "Penduduk" },
     { href: "#berita", label: "Berita" },
+    { href: "#umkm", label: "Belanja" },
   ];
 
   // Unified navigation items for mobile (using the same as desktop for consistency)
@@ -60,6 +61,7 @@ const NavbarComponent = () => {
     { href: "#struktur", label: "STOK" },
     { href: "#penduduk", label: "Penduduk" },
     { href: "#berita", label: "Berita" },
+    { href: "#umkm", label: "Belanja" },
   ];
 
   return (
@@ -137,15 +139,17 @@ const NavbarComponent = () => {
         </NavbarContent>
 
         {/* Mobile Menu - Updated with full-width dividers */}
-        <NavbarMenu className="pt-6 pb-8 px-0 bg-white/96 backdrop-blur-md">
+        <NavbarMenu className="pt-6 pb-8 px-0 bg-gray-50">
           <div className="space-y-1">
             {mobileNavItems.map((item, index) => (
               <NavbarMenuItem key={item.href}>
                 <div className="px-6">
                   <Link
-                    className="text-gray-800 w-full flex items-center text-base font-semibold hover:text-red-700 hover:bg-gray-50 transition-all duration-200 py-3 px-4 -mx-4 rounded-lg cursor-pointer"
+                    className=" w-full flex items-center text-base font-semibold text-red-700 bg-gray-50 transition-all duration-200 py-3 px-4 -mx-4 rounded-lg cursor-pointer"
                     href={item.href}
-                    onClick={(e) => handleSmoothScroll(e, item.href.substring(1))}
+                    onClick={(e) =>
+                      handleSmoothScroll(e, item.href.substring(1))
+                    }
                   >
                     <span className="flex-1">{item.label}</span>
                   </Link>
