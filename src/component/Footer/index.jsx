@@ -19,7 +19,7 @@ const Footer = () => {
                 />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Pemerintah Desa Ciptsari</h3>
+                <h3 className="text-xl font-bold">Pemerintah Desa Ciptasari</h3>
               </div>
             </div>
             <div className="text-sm text-white leading-relaxed">

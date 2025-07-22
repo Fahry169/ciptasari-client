@@ -1,3 +1,4 @@
+import { Button } from "@heroui/react";
 import React from "react";
 import { FaUser, FaEye, FaCalendarAlt } from "react-icons/fa";
 
@@ -123,9 +124,9 @@ const Berita = () => {
               </div>
 
               {/* Read More Button */}
-              <button className="mt-4 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
+              <Button className="mt-4 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
                 Baca Selengkapnya
-              </button>
+              </Button>
             </div>
           </div>
         ))}
