@@ -23,42 +23,57 @@ const Struktur = () => {
     }
   };
 
-  // Data untuk card (Anda bisa mengganti dengan data sebenarnya)
+  // Data untuk card berdasarkan struktur organisasi yang sebenarnya
   const teamMembers = [
     { name: "Marto", position: "Kepala Desa", image: "/assets/kades.png" },
     {
-      name: "Rina Jayanti",
+      name: "Oyan Sedjana",
+      position: "Sekretaris Desa",
+      image: "/assets/kades.png",
+    },
+    {
+      name: "Ahmad Sutrisno",
+      position: "Kasi Pemerintahan",
+      image: "/assets/kades.png",
+    },
+    {
+      name: "Oyim Sumardi",
+      position: "Kasi Kesejahteraan",
+      image: "/assets/kades.png",
+    },
+    {
+      name: "Rifki Aprilian Sukmari",
+      position: "Kasi Pelayanan",
+      image: "/assets/kades.png",
+    },
+    {
+      name: "Rian Aprianto",
       position: "Kaur Keuangan",
       image: "/assets/kades.png",
     },
     {
-      name: "Marliana",
-      position: "Kepala Seksi Pemerintahan dan Kemasyarakatan",
+      name: "Novi Arianti",
+      position: "Kaur Umum & Perencanaan",
       image: "/assets/kades.png",
     },
     {
-      name: "Ahmad Suharto",
-      position: "Kaur Perencanaan",
+      name: "Herdiana Yusup",
+      position: "Kepala Dusun 1",
       image: "/assets/kades.png",
     },
     {
-      name: "Siti Nurhaliza",
-      position: "Kaur Umum",
+      name: "Nana Suryana",
+      position: "Kepala Dusun 2",
       image: "/assets/kades.png",
     },
     {
-      name: "Bambang Wijaya",
-      position: "Kepala Seksi Kesejahteraan",
+      name: "Sobar Sopian Sobur",
+      position: "Kepala Dusun 3",
       image: "/assets/kades.png",
     },
     {
-      name: "Dewi Sartika",
-      position: "Kepala Seksi Pelayanan",
-      image: "/assets/kades.png",
-    },
-    {
-      name: "Indra Gunawan",
-      position: "Staf Administrasi",
+      name: "Eksa Hidayat",
+      position: "Kepala Dusun 4",
       image: "/assets/kades.png",
     },
   ];

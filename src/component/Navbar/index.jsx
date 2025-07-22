@@ -52,9 +52,13 @@ const NavbarComponent = () => {
     { href: "#berita", label: "Berita" },
   ];
 
+  // Unified navigation items for mobile (using the same as desktop for consistency)
   const mobileNavItems = [
     { href: "#hero", label: "Home" },
-    { href: "#sambutan", label: "Profile Desa" },
+    { href: "#sambutan", label: "Sambutan" },
+    { href: "#peta", label: "Peta" },
+    { href: "#struktur", label: "STOK" },
+    { href: "#penduduk", label: "Penduduk" },
     { href: "#berita", label: "Berita" },
   ];
 
@@ -82,23 +86,24 @@ const NavbarComponent = () => {
             : "none",
         }}
       >
+        {/* Brand Section - Optimized for mobile */}
         <NavbarContent justify="start" className="flex items-center flex-1">
-          <NavbarBrand className="pl-0 pr-0 md:pl-2">
-            <div className="flex items-center gap-2 sm:gap-4 text-white">
+          <NavbarBrand className="pl-2 pr-0 md:pl-2">
+            <div className="flex items-center gap-2 sm:gap-3 md:gap-4 text-white">
               <div className="flex-shrink-0">
                 <Image
-                  alt="Logo"
+                  alt="Logo Desa Ciptasari"
                   src="../logo/logo.png"
-                  className="w-10 h-12 sm:w-12 sm:h-14 md:w-14 md:h-16"
+                  className="w-9 h-11 sm:w-12 sm:h-14 md:w-14 md:h-16"
                 />
               </div>
               <div className="min-w-0 flex-1">
-                <h1 className="font-bold text-xs sm:text-sm md:text-lg">
+                <h1 className="font-bold text-sm sm:text-base md:text-lg leading-tight">
                   Desa Ciptasari
                 </h1>
-                <h1 className="text-xs sm:text-sm md:text-base leading-tight opacity-90">
+                <h2 className="text-xs sm:text-sm md:text-base leading-tight opacity-90">
                   Kecamatan Pangkalan
-                </h1>
+                </h2>
               </div>
             </div>
           </NavbarBrand>
@@ -115,7 +120,7 @@ const NavbarComponent = () => {
                 color="foreground"
                 href={item.href}
                 onClick={(e) => handleSmoothScroll(e, item.href.substring(1))}
-                className="text-white text-sm md:text-base lg:text-lg font-bold hover:text-gray-200 transition-colors cursor-pointer"
+                className="text-white text-sm md:text-base lg:text-lg font-bold hover:text-gray-200 transition-colors duration-200 cursor-pointer"
               >
                 {item.label}
               </Link>
@@ -124,26 +129,33 @@ const NavbarComponent = () => {
         </NavbarContent>
 
         {/* Mobile Menu Toggle */}
-        <NavbarContent justify="end" className="sm:hidden w-auto">
+        <NavbarContent justify="end" className="sm:hidden w-auto pr-2">
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="flex items-center text-white hover:text-gray-200 transition-colors"
+            className="text-white hover:text-gray-200 transition-colors duration-200 w-6 h-6"
           />
         </NavbarContent>
 
-        {/* Mobile Navigation Menu */}
-        <NavbarMenu className="py-8 px-6 left-0 space-y-4 bg-white/95 backdrop-blur-sm">
-          {mobileNavItems.map((item) => (
-            <NavbarMenuItem key={item.href}>
-              <Link
-                className="text-gray-800 w-full flex items-center text-lg font-medium hover:text-red-700 transition-colors py-2 cursor-pointer"
-                href={item.href}
-                onClick={(e) => handleSmoothScroll(e, item.href.substring(1))}
-              >
-                {item.label}
-              </Link>
-            </NavbarMenuItem>
-          ))}
+        {/* Mobile Menu - Updated with full-width dividers */}
+        <NavbarMenu className="pt-6 pb-8 px-0 bg-white/96 backdrop-blur-md">
+          <div className="space-y-1">
+            {mobileNavItems.map((item, index) => (
+              <NavbarMenuItem key={item.href}>
+                <div className="px-6">
+                  <Link
+                    className="text-gray-800 w-full flex items-center text-base font-semibold hover:text-red-700 hover:bg-gray-50 transition-all duration-200 py-3 px-4 -mx-4 rounded-lg cursor-pointer"
+                    href={item.href}
+                    onClick={(e) => handleSmoothScroll(e, item.href.substring(1))}
+                  >
+                    <span className="flex-1">{item.label}</span>
+                  </Link>
+                </div>
+                {index < mobileNavItems.length - 1 && (
+                  <div className="h-px bg-gray-100 w-full mt-1" />
+                )}
+              </NavbarMenuItem>
+            ))}
+          </div>
         </NavbarMenu>
       </Navbar>
     </div>

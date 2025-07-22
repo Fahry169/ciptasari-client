@@ -34,7 +34,7 @@ const Sambutan = () => {
             publik dan kegiatan di desa, guna membuka potensi desa Ciptasari
             untuk berkelanjutan.
           </p>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg">
             Terima kasih kepada semua pihak yang telah banyak memberi dukungan
             dan kontribusi baik berupa tenaga, pikiran dan semangat sehingga
             website ini dapat terealisasi.
