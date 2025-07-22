@@ -12,8 +12,7 @@ const Berita = () => {
       image: "/assets/home.jpg",
       author: "Administrator",
       date: "22 May 2025",
-      views: "479 kali",
-      category: "Pemerintahan",
+      news:"Desa Ciptasari, 25 Juni 2025 – Pemerintah Desa Ciptasari secara rutin melaksanakan Minggon Desa setiap minggunya pada hari Rabu. Kegiatan Minggon merupakan rangkaian acara yang berisi pemaparan kegiatan dan diskusi keberlanjutan desa. Kegiatan Minggon dipimpin oleh Kepala Desa Ciptasari dan dihadiri oleh seluruh perangkat desa, perangkat dusun, perwakilan PKK dan Pos KB, serta perwakilan dari sektor pertanian. Kegiatan diawali dengan pembukaan dari Kepala Desa, lalu dilanjut dengan arahan dari sektor pertanian. Mengingat salah satu potensi Desa Ciptasari adalah sektor pertanian, arahan berfokus pada permasalahan basrek unggas yang mengganggu lahan pertanian. Dalam arahannya, Bapak Marto selaku kepala desa mengatakan bahwa, “Pencegahan harus dilakukan dari awal, jangan sampai dampaknya meluas baru diatasi” ujarnya. Pengarahan selanjutnya dari Ibu Dedeh selaku perwakilan PKK dan Pos KB. Permasalahan yang disoroti adalah himbauan untuk menciptakan desa ramah anak P2TP2A di tingkat desa, pencegahan kekerasan rumah tangga dan kekerasan seksual terhadap anak, serta target untuk segera membentuk ketua posyandu. Melalui kegiatan minggon ini, diharapkan seluruh perangkat desa, perangkat dusun, dan seluruh warga Desa Ciptasari dapat bersinergi untuk menyelesaikan permasalahan yang dihadapi guna keberlangsungan kondisi desa yang lebih baik dan saling bersinergi bersama. (AN)",
     },
     {
       id: 2,
@@ -23,8 +22,6 @@ const Berita = () => {
       image: "/assets/home.jpg",
       author: "Administrator",
       date: "05 Sep 2024",
-      views: "1.891 kali",
-      category: "Budaya",
     },
     {
       id: 3,
@@ -34,8 +31,6 @@ const Berita = () => {
       image: "/assets/home.jpg",
       author: "Administrator",
       date: "05 Sep 2024",
-      views: "1.173 kali",
-      category: "Keamanan",
     },
     {
       id: 4,
@@ -45,8 +40,6 @@ const Berita = () => {
       image: "/assets/home.jpg",
       author: "Administrator",
       date: "15 Aug 2024",
-      views: "856 kali",
-      category: "Lingkungan",
     },
     {
       id: 5,
@@ -56,8 +49,6 @@ const Berita = () => {
       image: "/assets/home.jpg",
       author: "Administrator",
       date: "10 Jul 2024",
-      views: "1.245 kali",
-      category: "Infrastruktur",
     },
     {
       id: 6,
@@ -67,8 +58,6 @@ const Berita = () => {
       image: "/assets/home.jpg",
       author: "Administrator",
       date: "28 Jun 2024",
-      views: "967 kali",
-      category: "Sosial",
     },
   ];
 

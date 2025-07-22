@@ -1,0 +1,40 @@
+{
+  "news": [
+     {
+      "id": 1,
+      "title": "Minggon Rutinan Desa Ciptasari",
+      "description": "Desa Ciptasari, 25 Juni 2025 – Pemerintah Desa Ciptasari secara rutin melaksanakan Minggon Desa setiap minggunya pada hari Rabu. Kegiatan Minggon merupakan rangkaian acara yang berisi pemaparan kegiatan dan diskusi keberlanjutan desa.",
+      "image": "/assets/home.jpg",
+      "author": "Administrator",
+      "date": "25 Jun 2025",
+      "fullNews": "Desa Ciptasari, 25 Juni 2025 – Pemerintah Desa Ciptasari secara rutin melaksanakan Minggon Desa setiap minggunya pada hari Rabu. Kegiatan Minggon merupakan rangkaian acara yang berisi pemaparan kegiatan dan diskusi keberlanjutan desa. \n\nKegiatan Minggon dipimpin oleh Kepala Desa Ciptasari dan dihadiri oleh seluruh perangkat desa, perangkat dusun, perwakilan PKK dan Pos KB, serta perwakilan dari sektor pertanian.\n\nKegiatan diawali dengan pembukaan dari Kepala Desa, lalu dilanjut dengan arahan dari sektor pertanian. Mengingat salah satu potensi Desa Ciptasari adalah sektor pertanian, arahan berfokus pada permasalahan basrek unggas yang mengganggu lahan pertanian. Dalam arahannya, Bapak Marto selaku kepala desa mengatakan bahwa, “Pencegahan harus dilakukan dari awal, jangan sampai dampaknya meluas baru diatasi” ujarnya.\n\nPengarahan selanjutnya dari Ibu Dedeh selaku perwakilan PKK dan Pos KB. Permasalahan yang disoroti adalah himbauan untuk menciptakan desa ramah anak P2TP2A di tingkat desa, pencegahan kekerasan rumah tangga dan kekerasan seksual terhadap anak, serta target untuk segera membentuk ketua posyandu.\n\nMelalui kegiatan minggon ini, diharapkan seluruh perangkat desa, perangkat dusun, dan seluruh warga Desa Ciptasari dapat bersinergi untuk menyelesaikan permasalahan yang dihadapi guna keberlangsungan kondisi desa yang lebih baik dan saling bersinergi bersama. (AN)"
+    },
+    {
+      "id": 2,
+      "title": "Menjaga Kelestarian Adat: Desa Ciptasari Kembali Gelar Hajat Bumi",
+      "description": "Desa Ciptasari, 22 Juli 2025 – Adat istiadat merupakan kebiasaan turun-temurun yang sebaiknya dilestarikan oleh seluruh masyarakat...",
+      "image": "/assets/home.jpg",
+      "author": "Administrator",
+      "date": "22 Jul 2025",
+      "fullNews": "Desa Ciptasari, 22 Juli 2025 – Adat istiadat merupakan kebiasan turun-menurun yang sebaiknya dilestarikan oleh seluruh masyarakat. Desa Ciptasari merupakan salah satu desa yang terus menjaga adat istiadat yang ada di Desa tersebut. [...] (AN)"
+    },
+    {
+      "id": 3,
+      "title": "Kolaborasi dengan KKN Unsika, Posyandu Desa Ciptasari Gelar Sosialisasi Stunting dan Cek Kesehatan Gratis",
+      "description": "Desa Ciptasari, 05 Juli 2025 – Kedatangan mahasiswa KKN dari Universitas Singaperbangsa Karawang menambah sinergi baru bagi Desa Ciptasari...",
+      "image": "/assets/home.jpg",
+      "author": "Administrator",
+      "date": "05 Jul 2025",
+      "fullNews": "Desa Ciptasari, 05 Juli 2025 – Kedatangan mahasiswa KKN dari Universitas Singaperbangsa Karawang menambah sinergi baru bagi Desa Ciptasari. [...] (AN)"
+    },
+    {
+      "id": 4,
+      "title": "Mahasiswa KKN Unsika Gelar Ciptasari Cup 2025 dengan Pertandingan Voli Antar RT di Desa Ciptasari",
+      "description": "Desa Ciptasari, 18-19 Juli 2025 – Mahasiswa KKN Unsika baru-baru ini menyelenggarakan turnamen voli bagi warga di Desa Ciptasari...",
+      "image": "/assets/home.jpg",
+      "author": "Administrator",
+      "date": "19 Jul 2025",
+      "fullNews": "Desa Ciptasari, 18-19 Juli 2025 – Mahasiswa KKN Unsika baru-baru ini menyelenggarakan turnamen voli bagi warga di Desa Ciptasari. [...] (AN)"
+    }
+  ]
+}
