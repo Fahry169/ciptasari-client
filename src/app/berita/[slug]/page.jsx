@@ -15,14 +15,14 @@ import NavbarSec from "@/component/NavbarSec";
 const newsData = [
   {
     id: 1,
-    title: "Sistem Bambu Lestari",
+    title: "Sistem Bambu Lestari (Simbal): Inovasi KKN Unsika untuk Meningkatkan.......",
     excerpt:
       "Mahasiswa KKN Unsika menggelar kegiatan Fun Learning terakhir mereka di SDN 2 Ciptasari, dengan pendekatan visual berbasis gambar dan suara.",
     content: ``,
-    image: "/assets/kades.png",
+    image: "/assets/simbal.jpg",
     author: "Administrator",
     date: "23 Juli 2025",
-    slug: "peningkatan-infrastruktur-jalan",
+    slug: "sistem-bambu-lestari-kkn-unsika",
   },
   {
     id: 2,

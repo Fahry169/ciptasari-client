@@ -32,23 +32,25 @@ const NavbarSec = () => {
       >
         <NavbarContent justify="start" className="flex items-center flex-1 ">
           <NavbarBrand className="pl-2 pr-0 md:pl-2">
-            <div className="flex items-center gap-2 sm:gap-3 md:gap-4 text-white">
-              <div className="flex-shrink-0">
-                <Image
-                  alt="Logo Desa Ciptasari"
-                  src="../logo/logo.png"
-                  className="w-9 h-11 sm:w-12 sm:h-14 md:w-14 md:h-16"
-                />
+           <Link href="/">
+              <div className="flex items-center gap-2 sm:gap-3 md:gap-4 text-white">
+                <div className="flex-shrink-0">
+                  <Image
+                    alt="Logo Desa Ciptasari"
+                    src="../logo/logo.png"
+                    className="w-9 h-11 sm:w-12 sm:h-14 md:w-14 md:h-16"
+                  />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <h1 className="font-bold text-sm sm:text-base md:text-lg leading-tight">
+                    Desa Ciptasari
+                  </h1>
+                  <h2 className="text-xs sm:text-sm md:text-base leading-tight opacity-90">
+                    Kecamatan Pangkalan
+                  </h2>
+                </div>
               </div>
-              <div className="min-w-0 flex-1">
-                <h1 className="font-bold text-sm sm:text-base md:text-lg leading-tight">
-                  Desa Ciptasari
-                </h1>
-                <h2 className="text-xs sm:text-sm md:text-base leading-tight opacity-90">
-                  Kecamatan Pangkalan
-                </h2>
-              </div>
-            </div>
+            </Link>
           </NavbarBrand>
         </NavbarContent>
 

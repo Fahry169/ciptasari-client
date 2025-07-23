@@ -9,10 +9,10 @@ const Berita = () => {
     title: "Sistem Bambu Lestari (Simbal): Inovasi KKN Unsika untuk Meningkatkan.......",
     description:
       "Pada tanggal 18 Juli 2025 Mahasiswa & Mahasiswi KKN Universitas Singaperbangsa Karawang melaksanakan kegiatan Fun Learning kedua dan terakhir mereka dalam rangka Pengabdian di Desa Ciptasari, Kecamatan Pangkalan Kabupaten Karawang. Selama satu hari di SDN 2 Ciptasari. Kegiatan ini bertujuan untuk menciptakan suasana belajar yang menyenangkan dan interaktif bagi anak-anak sekolah dasar, dengan pendekatan visual berbasis gambar dan suara.",
-    image: "/assets/kades.png",
+    image: "/assets/simbal.jpg",
     author: "Administrator",
     date: "23 Juli 2025",
-    slug: "peningkatan-infrastruktur-jalan",
+    slug: "sistem-bambu-lestari-kkn-unsika",
   },
   {
     id: 2,
