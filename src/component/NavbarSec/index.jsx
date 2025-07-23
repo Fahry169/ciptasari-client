@@ -56,7 +56,7 @@ const NavbarSec = () => {
           className="flex gap-4 md:gap-6 lg:gap-8 font-semibold mr-3"
           justify="end"
         >
-          <Button onPress={handleBackClick} className="bg-red-900 font-bold text-white text-base py-6">
+          <Button onPress={handleBackClick} className="bg-red-900 font-bold text-white text-sm md:text-base md:py-6 py-4">
             <ArrowUUpLeftIcon size={20} weight="bold"/>
             Kembali
           </Button>
