@@ -183,7 +183,7 @@ Kegiatan sosialisasi berisi pemaparan mengenai pentingnya peran ibu dalam menjag
 
 Pada hari yang sama, terdapat kegiatan Cek Kesehatan Gratis (CKG) yang dapat diikuti oleh seluruh warga Desa Ciptasari. Mahasiswa KKN Unsika dan pihak posyandu saling bahu-membahu melayani warga desa untuk melakukan tes kesehatan.
 
-Serangkaian tes yang dilakukan seperti berat dan tinggi badan, cek tensi, cek gula darah, cek mata, serta cek kesehatan mental. Melalui kegiatan ini diharapkan warga desa dapat mengetahui kondisi kesehatannya, sehingga dapat dilakukan mitigasi jika terdapat gejala penyakit yang menkhawatirk`,
+Serangkaian tes yang dilakukan seperti berat dan tinggi badan, cek tensi, cek gula darah, cek mata, serta cek kesehatan mental. Melalui kegiatan ini diharapkan warga desa dapat mengetahui kondisi kesehatannya, sehingga dapat dilakukan mitigasi jika terdapat gejala penyakit yang menkhawatirkan.`,
     image: "/assets/stunting.jpg",
     author: "AN",
     date: "05 Juli 2025",
