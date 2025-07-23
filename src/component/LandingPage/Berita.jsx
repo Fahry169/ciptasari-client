@@ -56,6 +56,16 @@ const Berita = () => {
   },
   {
     id: 6,
+    title: "Fun Learning: Belajar Seru, bersama Kelas Ceria SDN II Ciptasari",
+    description:
+      "Pada tanggal 18 Juli 2025 Mahasiswa & Mahasiswi KKN Universitas Singaperbangsa Karawang melaksanakan kegiatan Fun Learning kedua dan terakhir mereka dalam rangka Pengabdian di Desa Ciptasari, Kecamatan Pangkalan Kabupaten Karawang. Selama satu hari di SDN 2 Ciptasari. Kegiatan ini bertujuan untuk menciptakan suasana belajar yang menyenangkan dan interaktif bagi anak-anak sekolah dasar, dengan pendekatan visual berbasis gambar dan suara.",
+    image: "/assets/fun_learning.JPG",
+    author: "CB",
+    date: "18 Juli 2025",
+    slug: "fun-learning-sdn-2-ciptasari",
+  },
+  {
+    id: 7,
     title: "Mahasiswa KKN UNSIKA Sulap Limbah Bambu Jadi Celengan Edukatif di SDN Ciptasari III",
     description:
       "Mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA) menggagas sebuah program kreatif bertajuk Bambu Menabung, sebagai bentuk pemanfaatan potensi alam lokal sekaligus sarana edukasi penting nya menabung bagi anak-anak.",
@@ -63,16 +73,6 @@ const Berita = () => {
     author: "AI",
     date: "17 Juli 2025",
     slug: "celengan-bambu-kkn-unsika",
-  },
-  {
-    id: 7,
-    title: "Fun Learning: Belajar Seru, bersama Kelas Ceria SDN II Ciptasari",
-    description:
-      "Pada tanggal 18 Juli 2025 Mahasiswa & Mahasiswi KKN Universitas Singaperbangsa Karawang melaksanakan kegiatan Fun Learning kedua dan terakhir mereka dalam rangka Pengabdian di Desa Ciptasari, Kecamatan Pangkalan Kabupaten Karawang. Selama satu hari di SDN 2 Ciptasari. Kegiatan ini bertujuan untuk menciptakan suasana belajar yang menyenangkan dan interaktif bagi anak-anak sekolah dasar, dengan pendekatan visual berbasis gambar dan suara.",
-    image: "/assets/fun_learning.JPG",
-    author: "CB",
-    date: "18 Juli 2025",
-    slug: "fun-learning-sdn-2-ciptasarin",
   },
   {
     id: 8,
