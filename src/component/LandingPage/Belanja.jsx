@@ -37,10 +37,10 @@ const Belanja = () => {
     <div className="max-w-7xl mx-auto p-4 pt-24" id="belanja">
       <div className="space-y-2 mb-8">
         <h1 className="text-5xl font-bold md:text-left text-center text-red-600">
-          BELI DARI DESA
+          Beli dari Desa
         </h1>
         <h2 className="text-xl md:text-left text-center text-gray-600">
-          Layanan yang disediakan promosi produk UMKM desa sehingga mampu meningkatkan perekonomian masyarakat desa
+          Layanan promosi produk UMKM desa sehingga mampu meningkatkan perekonomian masyarakat desa
         </h2>
       </div>
       
