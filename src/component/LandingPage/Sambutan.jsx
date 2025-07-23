@@ -23,7 +23,7 @@ const Sambutan = () => {
         <h3 className="text-lg  text-gray-600 text-center md:text-left">
           Kepala Desa Ciptasari
         </h3>
-        <ScrollShadow className="h-[200] md:w-[800px] md:h-[200px] md:mt-4 mt-8">
+        <ScrollShadow className="h-[150] md:w-[800px] md:h-[200px] md:mt-4 mt-8">
           <p className="text-lg font-bold">
             Assalamu Alaikum Warohmatullahi Wabarakatu.
           </p>

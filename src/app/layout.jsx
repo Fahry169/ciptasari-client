@@ -65,7 +65,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${outfit.className} antialiased`}>
         <Providers>
-          <NavbarComponent />
           {children}
           <Footer/>
         </Providers>

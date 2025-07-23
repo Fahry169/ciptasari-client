@@ -42,7 +42,7 @@ const Struktur = () => {
       image: "/assets/kades.png",
     },
     {
-      name: "Rifki Aprilian Sukmari",
+      name: "Rifki Aprilian Sukmara",
       position: "Kasi Pelayanan",
       image: "/assets/kades.png",
     },
@@ -109,7 +109,7 @@ const Struktur = () => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-64 h-72 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer"
+              className="flex-shrink-0 w-64 h-72 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-[102%] transition-transform duration-300 cursor-pointer"
             >
               <div className="h-52 bg-gray-100 overflow-hidden">
                 <img

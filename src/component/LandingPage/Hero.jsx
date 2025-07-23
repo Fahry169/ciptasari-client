@@ -46,7 +46,7 @@ const Hero = () => {
         </h2>
         <div className="pt-4">
           <Button
-            className="text-lg text-red-700 font-semibold bg-white cursor-pointer"
+            className="text-lg text-white font-semibold bg-red-900 cursor-pointer"
             size="lg"
             onPress={() => handleScrollToSection("berita")}
           >

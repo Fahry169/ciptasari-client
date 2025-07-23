@@ -4,67 +4,98 @@ import { FaUser, FaCalendarAlt } from "react-icons/fa";
 
 const Berita = () => {
   const newsData = [
-    {
-      id: 1,
-      title: "Minggon Rutinan Desa Ciptasari",
-      description:
-        "Pemerintah Desa Ciptasari melaksanakan Minggon rutin setiap hari Rabu sebagai forum diskusi dan pemaparan kegiatan pembangunan desa.",
-      image: "/assets/minggon.jpg",
-      author: "AN",
-      date: "25 Juni 2025",
-      slug: "minggon-rutinan-desa-ciptasari",
-    },
-    {
-      id: 2,
-      title: "Menjaga Kelestarian Adat: Desa Ciptasari Kembali Gelar Hajat Bumi",
-      description:
-        "Adat istiadat merupakan kebiasan turun-menurun yang sebaiknya dilestarikan oleh seluruh masyarakat. Desa Ciptasari merupakan salah satu desa yang terus menjaga adat istiadat yang ada di Desa tersebut.",
-      image: "/assets/hajat.jpg",
-      author: "AN",
-      date: "22 Juli 2025",
-      slug: "hajat-bumi-desa-ciptasari",
-    },
-    {
-      id: 3,
-      title: "Kolaborasi dengan KKN Unsika, Posyandu Desa Ciptasari Gelar Sosialisasi Stunting dan Cek Kesehatan Gratis",
-      description:
-        "Kedatangan mahasiswa KKN dari Universitas Singaperbangsa Karawang menambah sinergi baru bagi Desa Ciptasari. Berakar pada permasalahan desa akan tingginya akan stunting, mahasiswa KKN dar Unsika merancang program kerja sosialisasi stunting untuk ibu hamil dan balita.",
-      image: "/assets/stunting.jpg",
-      author: "AN",
-      date: "05 Juli 2025",
-      slug: "kolaborasi-kkn-unsika-sosialisasi-stunting",
-    },
-    {
-      id: 4,
-      title: "Mahasiswa KKN Unsika Gelar Ciptasari Cup 2025 dengan Pertandingan Voli Antar RT di Desa Ciptasari",
-      description:
-        "Desa Ciptasari, 19-20 Juli 2025 – Mahasiswa KKN Unsika baru-baru ini menyelenggarakan turnamen voli bagi warga di Desa Ciptasari. Kegiatan ini merupakan salah satu program kerja yang dilatarbelakangi oleh tingginya minat olahraga voli di Desa Ciptasari.",
-      image: "/assets/voli.jpg",
-      author: "AN",
-      date: "20 Juli 2025",
-      slug: "ciptasari-cup-2025-turnamen-voli",
-    },
-    {
-      id: 5,
-      title: "Gotong Royong Pembersihan Lingkungan",
-      description:
-        "Warga Desa Kersik bergotong royong membersihkan lingkungan desa dalam rangka menyambut hari besar nasional.",
-      image: "/assets/home.jpg",
-      author: "Administrator",
-      date: "15 Aug 2024",
-      slug: "gotong-royong-bersih-desa",
-    },
-    {
-      id: 6,
-      title: "Peningkatan Infrastruktur Jalan Desa",
-      description:
-        "Pemerintah Desa Kersik meningkatkan infrastruktur jalan untuk memperlancar aktivitas warga dan mendukung ekonomi desa.",
-      image: "/assets/home.jpg",
-      author: "Administrator",
-      date: "10 Jul 2024",
-      slug: "peningkatan-infrastruktur-jalan",
-    },
-  ];
+  {
+    id: 1,
+    title: "Sistem Bambu Lestari",
+    description:
+      "Pada tanggal 18 Juli 2025 Mahasiswa & Mahasiswi KKN Universitas Singaperbangsa Karawang melaksanakan kegiatan Fun Learning kedua dan terakhir mereka dalam rangka Pengabdian di Desa Ciptasari, Kecamatan Pangkalan Kabupaten Karawang. Selama satu hari di SDN 2 Ciptasari. Kegiatan ini bertujuan untuk menciptakan suasana belajar yang menyenangkan dan interaktif bagi anak-anak sekolah dasar, dengan pendekatan visual berbasis gambar dan suara.",
+    image: "/assets/simbal.jpg",
+    author: "Administrator",
+    date: "23 Juli 2025",
+    slug: "peningkatan-infrastruktur-jalan",
+  },
+  {
+    id: 2,
+    title: "Mendorong Pemberdayaan Ekonomi Desa melalui Digitalisasi UMKM: Kolaborasi antara LUMAWI BUMDes Dengan Mahasiswa KKN UNSIKA",
+    description:
+      "Pemberdayaan ekonomi masyarakat desa semakin menguat melalui sinergi antara BUMDes Ciptasari dan mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA). Melalui unit usaha LUMAWI (Lumbung Awi), BUMDes Ciptasari mendorong digitalisasi UMKM sebagai strategi untuk meningkatkan pemasaran, produktivitas, dan keberlanjutan usaha lokal.",
+    image: "/assets/home.jpg",
+    author: "CB",
+    date: "23 Juli 2025",
+    slug: "gerakan-remaja-masjid-ciptasari",
+  },
+  {
+    id: 3,
+    title: "Menjaga Kelestarian Adat: Desa Ciptasari Kembali Gelar Hajat Bumi",
+    description:
+      "Adat istiadat merupakan kebiasan turun-menurun yang sebaiknya dilestarikan oleh seluruh masyarakat. Desa Ciptasari merupakan salah satu desa yang terus menjaga adat istiadat yang ada di Desa tersebut.",
+    image: "/assets/hajat.jpg",
+    author: "AN",
+    date: "22 Juli 2025",
+    slug: "hajat-bumi-desa-ciptasari",
+  },
+  {
+    id: 4,
+    title: "KKN Unsika Permudah Akses Warga Desa Ciptasari lewat 7 Plang Jalan Strategis di Empat Dusun",
+    description:
+      "Desa Ciptasari, 22 Juli 2025 — Mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (Unsika) terus menunjukkan kontribusinya dalam pembangunan desa melalui berbagai program nyata. Salah satu program kerja yang berhasil diwujudkan adalah pembuatan dan pemasangan plang jalan strategis di Desa Ciptasari, Kecamatan Pangkalan, Kabupaten Karawang.",
+    image: "/assets/plang_jalan.PNG",
+    author: "BC",
+    date: "20 Juli 2025",
+    slug: "plang-jalan-desa-ciptasari",
+  },
+  {
+    id: 5,
+    title: "Mahasiswa KKN Unsika Gelar Ciptasari Cup 2025 dengan Pertandingan Voli Antar RT di Desa Ciptasari",
+    description:
+      "Desa Ciptasari, 19-20 Juli 2025 – Mahasiswa KKN Unsika baru-baru ini menyelenggarakan turnamen voli bagi warga di Desa Ciptasari. Kegiatan ini merupakan salah satu program kerja yang dilatarbelakangi oleh tingginya minat olahraga voli di Desa Ciptasari.",
+    image: "/assets/voli.jpg",
+    author: "AN",
+    date: "20 Juli 2025",
+    slug: "ciptasari-cup-2025-turnamen-voli",
+  },
+  {
+    id: 6,
+    title: "Pemanfaatan Hutan Bambu Desa Ciptasari: KKN UNSIKA Gagas Produksi Celengan Bambu Kreatif di SDN III Ciptasari",
+    description:
+      "Desa Ciptasari dikenal memiliki potensi sumber daya alam yang melimpah, salah satunya adalah hutan bambu yang tersebar di beberapa wilayah desa. Melihat potensi tersebut, mahasiswa Kuliah Kerja Nyata (KKN) dari Universitas Singaperbangsa Karawang (UNSIKA) menggagas sebuah program inovatif berupa produksi celengan bambu, sebagai bentuk pemanfaatan sumber daya alam lokal yang berkelanjutan sekaligus edukatif.",
+    image: "/assets/bambu_menabung.JPG",
+    author: "CB",
+    date: "17 Juli 2025",
+    slug: "celengan-bambu-kkn-unsika",
+  },
+  {
+    id: 7,
+    title: "Fun Learning: Belajar Seru, bersama Kelas Ceria SDN II Ciptasari",
+    description:
+      "Pada tanggal 18 Juli 2025 Mahasiswa & Mahasiswi KKN Universitas Singaperbangsa Karawang melaksanakan kegiatan Fun Learning kedua dan terakhir mereka dalam rangka Pengabdian di Desa Ciptasari, Kecamatan Pangkalan Kabupaten Karawang. Selama satu hari di SDN 2 Ciptasari. Kegiatan ini bertujuan untuk menciptakan suasana belajar yang menyenangkan dan interaktif bagi anak-anak sekolah dasar, dengan pendekatan visual berbasis gambar dan suara.",
+    image: "/assets/fun_learning.JPG",
+    author: "CB",
+    date: "18 Juli 2025",
+    slug: "peningkatan-infrastruktur-jalan",
+  },
+  {
+    id: 8,
+    title: "Pojok Literasi: Program KKN Ciptasari untuk Menumbuhkan Budaya Membaca Anak Sejak Dini",
+    description:
+      "Mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang yang tergabung di Desa Ciptasari 2025 menghadirkan sebuah program inspiratif bertajuk “Pojok Literasi: Ruang Baca dan Edukasi Anak”. Program ini dilaksanakan di SDN Ciptasari I dan menjadi salah satu bentuk nyata kontribusi mahasiswa dalam mendukung gerakan literasi nasional, khususnya di lingkungan sekolah dasar yang berada di wilayah pedesaan.",
+    image: "/assets/pojok_literasi.PNG",
+    author: "BA",
+    date: "16 Juli 2025",
+    slug: "minggon-rutinan-desa-ciptasari",
+  },
+  {
+    id: 9,
+    title: "Kolaborasi dengan KKN Unsika, Posyandu Desa Ciptasari Gelar Sosialisasi Stunting dan Cek Kesehatan Gratis",
+    description:
+      "Kedatangan mahasiswa KKN dari Universitas Singaperbangsa Karawang menambah sinergi baru bagi Desa Ciptasari. Berakar pada permasalahan desa akan tingginya akan stunting, mahasiswa KKN dar Unsika merancang program kerja sosialisasi stunting untuk ibu hamil dan balita.",
+    image: "/assets/stunting.jpg",
+    author: "AN",
+    date: "05 Juli 2025",
+    slug: "kolaborasi-kkn-unsika-sosialisasi-stunting",
+  },
+]
+;
 
   return (
     <div className="max-w-7xl mx-auto p-4 pt-24" id="berita">
@@ -89,7 +120,7 @@ const Berita = () => {
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                className="w-full h-full object-cover hover:scale-[102%]  transition-transform duration-300"
               />
             </div>
 
@@ -114,7 +145,11 @@ const Berita = () => {
                 </div>
               </div>
 
-              <Button as={Link} href={`/berita/${article.slug}`} className="mt-4 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
+              <Button
+                as={Link}
+                href={`/berita/${article.slug}`}
+                className="mt-4 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium"
+              >
                 Baca Selengkapnya
               </Button>
             </div>
