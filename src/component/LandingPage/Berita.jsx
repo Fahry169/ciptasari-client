@@ -6,10 +6,10 @@ const Berita = () => {
   const newsData = [
   {
     id: 1,
-    title: "Sistem Bambu Lestari",
+    title: "Sistem Bambu Lestari (Simbal): Inovasi KKN Unsika untuk Meningkatkan.......",
     description:
       "Pada tanggal 18 Juli 2025 Mahasiswa & Mahasiswi KKN Universitas Singaperbangsa Karawang melaksanakan kegiatan Fun Learning kedua dan terakhir mereka dalam rangka Pengabdian di Desa Ciptasari, Kecamatan Pangkalan Kabupaten Karawang. Selama satu hari di SDN 2 Ciptasari. Kegiatan ini bertujuan untuk menciptakan suasana belajar yang menyenangkan dan interaktif bagi anak-anak sekolah dasar, dengan pendekatan visual berbasis gambar dan suara.",
-    image: "/assets/simbal.jpg",
+    image: "/assets/kades.png",
     author: "Administrator",
     date: "23 Juli 2025",
     slug: "peningkatan-infrastruktur-jalan",
@@ -19,10 +19,10 @@ const Berita = () => {
     title: "Mendorong Pemberdayaan Ekonomi Desa melalui Digitalisasi UMKM: Kolaborasi antara LUMAWI BUMDes Dengan Mahasiswa KKN UNSIKA",
     description:
       "Pemberdayaan ekonomi masyarakat desa semakin menguat melalui sinergi antara BUMDes Ciptasari dan mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA). Melalui unit usaha LUMAWI (Lumbung Awi), BUMDes Ciptasari mendorong digitalisasi UMKM sebagai strategi untuk meningkatkan pemasaran, produktivitas, dan keberlanjutan usaha lokal.",
-    image: "/assets/home.jpg",
-    author: "CB",
+    image: "/assets/kades.png",
+    author: "AD",
     date: "23 Juli 2025",
-    slug: "gerakan-remaja-masjid-ciptasari",
+    slug: "lumawi-umkm-desa-ciptasari",
   },
   {
     id: 3,
@@ -56,11 +56,11 @@ const Berita = () => {
   },
   {
     id: 6,
-    title: "Pemanfaatan Hutan Bambu Desa Ciptasari: KKN UNSIKA Gagas Produksi Celengan Bambu Kreatif di SDN III Ciptasari",
+    title: "Mahasiswa KKN UNSIKA Sulap Limbah Bambu Jadi Celengan Edukatif di SDN Ciptasari III",
     description:
-      "Desa Ciptasari dikenal memiliki potensi sumber daya alam yang melimpah, salah satunya adalah hutan bambu yang tersebar di beberapa wilayah desa. Melihat potensi tersebut, mahasiswa Kuliah Kerja Nyata (KKN) dari Universitas Singaperbangsa Karawang (UNSIKA) menggagas sebuah program inovatif berupa produksi celengan bambu, sebagai bentuk pemanfaatan sumber daya alam lokal yang berkelanjutan sekaligus edukatif.",
+      "Mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA) menggagas sebuah program kreatif bertajuk Bambu Menabung, sebagai bentuk pemanfaatan potensi alam lokal sekaligus sarana edukasi penting nya menabung bagi anak-anak.",
     image: "/assets/bambu_menabung.JPG",
-    author: "CB",
+    author: "AI",
     date: "17 Juli 2025",
     slug: "celengan-bambu-kkn-unsika",
   },
@@ -72,7 +72,7 @@ const Berita = () => {
     image: "/assets/fun_learning.JPG",
     author: "CB",
     date: "18 Juli 2025",
-    slug: "peningkatan-infrastruktur-jalan",
+    slug: "fun-learning-sdn-2-ciptasarin",
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ const Berita = () => {
     image: "/assets/pojok_literasi.PNG",
     author: "BA",
     date: "16 Juli 2025",
-    slug: "minggon-rutinan-desa-ciptasari",
+    slug: "pojok-literasi-sdn-1-ciptasari",
   },
   {
     id: 9,

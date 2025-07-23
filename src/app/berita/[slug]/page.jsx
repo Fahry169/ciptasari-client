@@ -18,8 +18,8 @@ const newsData = [
     title: "Sistem Bambu Lestari",
     excerpt:
       "Mahasiswa KKN Unsika menggelar kegiatan Fun Learning terakhir mereka di SDN 2 Ciptasari, dengan pendekatan visual berbasis gambar dan suara.",
-    content: "",
-    image: "/assets/simbal.jpg",
+    content: ``,
+    image: "/assets/kades.png",
     author: "Administrator",
     date: "23 Juli 2025",
     slug: "peningkatan-infrastruktur-jalan",
@@ -27,14 +27,22 @@ const newsData = [
   {
     id: 2,
     title:
-      "Gerakan Remaja Masjid: Masjid sebagai Pusat Kegiatan Keagamaan dan Pembinaan Umat Islam",
+      "Mendorong Pemberdayaan Ekonomi Desa melalui Digitalisasi UMKM: Kolaborasi antara LUMAWI BUMDes Dengan Mahasiswa KKN UNSIKA",
     excerpt:
-      "KKN Unsika 2025 dan DKM Desa Ciptasari menggagas Gerakan Remaja Masjid untuk menguatkan peran masjid dalam kehidupan sosial-keagamaan masyarakat.",
-    content: "",
-    image: "/assets/home.jpg",
-    author: "CB",
+      "Pemberdayaan ekonomi masyarakat desa semakin menguat melalui sinergi antara BUMDes Ciptasari dan mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA). Melalui unit usaha LUMAWI (Lumbung Awi), BUMDes Ciptasari mendorong digitalisasi UMKM sebagai strategi untuk meningkatkan pemasaran, produktivitas, dan keberlanjutan usaha lokal.",
+    content: `Desa Ciptasari, 22 Juli 2025 – Pemberdayaan ekonomi masyarakat desa semakin menguat melalui sinergi antara BUMDes Ciptasari dan mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA). Melalui unit usaha LUMAWI (Lumbung Awi), BUMDes Ciptasari mendorong digitalisasi UMKM sebagai strategi untuk meningkatkan pemasaran, produktivitas, dan keberlanjutan usaha lokal.
+
+Mahasiswa KKN UNSIKA berperan aktif dalam mendampingi proses digitalisasi, mulai dari pelatihan penggunaan media sosial dan marketplace, hingga pembuatan konten promosi yang menarik untuk produk-produk kerajinan bambu khas Desa Ciptasari. Kolaborasi ini menjadi contoh nyata integrasi antara ilmu akademik dan praktik pemberdayaan masyarakat.
+
+Produk LUMAWI yang berbasis bambu tidak hanya mencerminkan nilai estetika dan fungsionalitas, tetapi juga mengusung prinsip keberlanjutan dan pelestarian budaya lokal. Dalam rangkaian kegiatan desa, LUMAWI bersama mahasiswa KKN turut memamerkan produk unggulan mereka serta memperkenalkan sistem pemasaran berbasis digital kepada warga dan pengunjung.
+
+Digitalisasi UMKM melalui kolaborasi ini diharapkan mampu menjangkau pasar yang lebih luas, baik di tingkat regional maupun nasional. Dengan dukungan generasi muda, khususnya mahasiswa, masyarakat Desa Ciptasari memiliki peluang besar untuk mengembangkan usaha secara mandiri dan berkelanjutan.
+
+Melalui kolaborasi antara LUMAWI BUMDes dan mahasiswa KKN UNSIKA, semangat gotong royong, inovasi, dan pelestarian budaya bersatu dalam langkah nyata membangun ekonomi desa berbasis potensi lokal dan teknologi digital.`,
+    image: "/assets/kades.png",
+    author: "AD",
     date: "23 Juli 2025",
-    slug: "gerakan-remaja-masjid-ciptasari",
+    slug: "lumawi-umkm-desa-ciptasari",
   },
   {
     id: 3,
@@ -49,7 +57,7 @@ Hajat Bumi pada tahun ini bertajuk: Kirab Budaya Hajat Bumi Desa Ciptasari, dila
 
 Setelah penilaian, warga akan melakukan pawai berkeliling desa untuk memamerkan hasil karya dondangnya. Kemudian pada malam hari, kegiatan Hajat Bumi akan ditutup dengan penampilan wayang golek yang dapat disaksikan oleh seluruh warga Desa Ciptasari dan masyarakat sekitar.
 
-Melalui kegiatan Hajat Bumi, warga Desa Ciptasari diharapkan dapat senantiasa meneruskan adat istiadat leluhurnya serta terus bersyukur akan kelimpahan berkah yang diberikan oleh Allah SWT. (AN)
+Melalui kegiatan Hajat Bumi, warga Desa Ciptasari diharapkan dapat senantiasa meneruskan adat istiadat leluhurnya serta terus bersyukur akan kelimpahan berkah yang diberikan oleh Allah SWT.
 `,
     image: "/assets/hajat.jpg",
     author: "AN",
@@ -92,7 +100,7 @@ Pada tim putri, sistem yang berlaku adalah sistem klasemen grup. Tim Gutik Putri
 
 Pada tim putra, persaingan sangat sengit. Sistem yang diberlakukan adalah sistem gugur. Pertandingan final mempertemukan RT 09 dan RT 10 dengan pertarungan yang sangat sengit. Setiap tim memberikan perlawanan terbaiknya. Partai final dimenangkan oleh RT 10 dengan 3-1. 
 
-Kegiatan pertandingan ini diharapkan dapat memupuk rasa persatuan dan kesatuan di antara warga Desa Ciptasari. Melalui sportivitas yang tinggi, mahasiswa KKN berhadap seluruh warga mampu bersaing dengan baik pada pertandingan-pertandingan selanjutnya. (AN)`,
+Kegiatan pertandingan ini diharapkan dapat memupuk rasa persatuan dan kesatuan di antara warga Desa Ciptasari. Melalui sportivitas yang tinggi, mahasiswa KKN berhadap seluruh warga mampu bersaing dengan baik pada pertandingan-pertandingan selanjutn`,
     image: "/assets/voli.jpg",
     author: "AN",
     date: "20 Juli 2025",
@@ -103,14 +111,19 @@ Kegiatan pertandingan ini diharapkan dapat memupuk rasa persatuan dan kesatuan d
     title:
       "Pemanfaatan Hutan Bambu Desa Ciptasari: KKN UNSIKA Gagas Produksi Celengan Bambu Kreatif di SDN III Ciptasari",
     excerpt:
-      "Mahasiswa KKN Unsika menyelenggarakan turnamen voli antar RT di Desa Ciptasari dengan antusiasme tinggi dari warga.",
-    content: `Desa Ciptasari dikenal memiliki potensi sumber daya alam yang melimpah, salah satunya adalah hutan bambu yang tersebar di beberapa wilayah desa. Melihat potensi tersebut, mahasiswa Kuliah Kerja Nyata (KKN) dari Universitas Singaperbangsa Karawang (UNSIKA) menggagas sebuah program inovatif berupa produksi celengan bambu, sebagai bentuk pemanfaatan sumber daya alam lokal yang berkelanjutan sekaligus edukatif.
-Rabu, 16 Juli 2025, Program ini dilaksanakan sebagai proyek percontohan (trial on) di SDN 3 Ciptasari, dengan melibatkan siswa-siswi sebagai subjek kegiatan. Celengan bambu yang telah diproduksi kemudian didistribusikan ke sekolah untuk dijadikan media edukasi keuangan dan sarana ekspresi seni bagi anak-anak.
-Para siswa diberikan kebebasan untuk melukis dan menghias celengan bambu mereka sendiri, dengan tujuan menumbuhkan kreativitas, meningkatkan kecintaan terhadap produk lokal, serta mengenalkan pentingnya menabung sejak dini melalui cara yang menyenangkan.
-Kegiatan ini mendapat sambutan positif dari pihak sekolah dan masyarakat, karena tidak hanya mendorong siswa untuk lebih kreatif, tetapi juga memperkenalkan nilai-nilai pelestarian alam dan kemandirian ekonomi lokal. Ke depannya, diharapkan program ini dapat terus dikembangkan dan melibatkan lebih banyak sekolah serta warga desa dalam produksi dan pemanfaatan bambu sebagai produk kerajinan bernilai guna dan seni.
+      "Mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA) menggagas sebuah program kreatif bertajuk Bambu Menabung, sebagai bentuk pemanfaatan potensi alam lokal sekaligus sarana edukasi penting nya menabung bagi anak-anak.",
+    content: `Ciptasari, 16 Juli 2025 – Mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA) menggagas sebuah program kreatif bertajuk Bambu Menabung, sebagai bentuk pemanfaatan potensi alam lokal sekaligus sarana edukasi penting nya menabung bagi anak-anak.
+
+Kegiatan ini dilaksanakan di SDN Ciptasari 03 dengan melibatkan siswa kelas 4  sebagai peserta program. Uniknya, celengan yang digunakan berasal dari limbah bambu yang banyak sekali ditemukan di desa yang dimanfaatkan kembali oleh tim KKN. Selain mendukung pelestarian lingkungan, inisiatif ini juga mengajarkan pentingnya mengelola sampah alami menjadi produk yang bernilai guna.
+
+Anak-anak tersebut tidak hanya menerima celengan yang sudah jadi, tetapi juga diajak untuk menghias dan melukis celengan bambu nya sendiri. Dengan cara ini, selain mereka belajar menabung, mereka juga dapat menyalurkan kreativitas, dan menumbuhkan pengetahuan mengolah limbah bambu sejak usia dini.
+
+Pihak sekolah menyambut hangat program bambu menabung ini. Para guru menilai bahwa pendekatan yang digunakan sangat sesuai dengan usia siswa, karena menggabungkan unsur edukasi, seni, dan kepedulian lingkungan.
+
+Ke depannya, tim KKN berharap kegiatan serupa dapat dikembangkan lebih luas ke sekolah-sekolah lain, sekaligus membuka peluang pelatihan pengolahan limbah bambu bagi warga desa Ciptasari. Dengan kolaborasi yang tepat, potensi lokal seperti bambu dapat diolah menjadi produk kreatif yang memiliki nilai ekonomi, edukatif, dan ramah lingkungan.
 `,
     image: "/assets/bambu_menabung.JPG",
-    author: "CB",
+    author: "AI",
     date: "17 Juli 2025",
     slug: "celengan-bambu-kkn-unsika",
   },
@@ -170,7 +183,7 @@ Kegiatan sosialisasi berisi pemaparan mengenai pentingnya peran ibu dalam menjag
 
 Pada hari yang sama, terdapat kegiatan Cek Kesehatan Gratis (CKG) yang dapat diikuti oleh seluruh warga Desa Ciptasari. Mahasiswa KKN Unsika dan pihak posyandu saling bahu-membahu melayani warga desa untuk melakukan tes kesehatan.
 
-Serangkaian tes yang dilakukan seperti berat dan tinggi badan, cek tensi, cek gula darah, cek mata, serta cek kesehatan mental. Melalui kegiatan ini diharapkan warga desa dapat mengetahui kondisi kesehatannya, sehingga dapat dilakukan mitigasi jika terdapat gejala penyakit yang menkhawatirkan. (AN)`,
+Serangkaian tes yang dilakukan seperti berat dan tinggi badan, cek tensi, cek gula darah, cek mata, serta cek kesehatan mental. Melalui kegiatan ini diharapkan warga desa dapat mengetahui kondisi kesehatannya, sehingga dapat dilakukan mitigasi jika terdapat gejala penyakit yang menkhawatirk`,
     image: "/assets/stunting.jpg",
     author: "AN",
     date: "05 Juli 2025",
@@ -260,15 +273,15 @@ export default function DetailBerita({ params }) {
 
           {/* Sidebar - Berita Terbaru */}
           <aside className="lg:w-1/3">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-6">
+            <div className="bg-white rounded-lg shadow-sm p-4">
+              <h2 className="text-2xl font-bold text-gray-900 mb-3">
                 Berita Lainnya
               </h2>
 
               <div className="space-y-4">
                 {otherNews.map((article, index) => (
                   <Link key={article.id} href={`/berita/${article.slug}`}>
-                    <div className="flex gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200">
+                    <div className="flex gap-3 py-3 rounded-lg hover:bg-gray-50 transition-colors duration-200">
                       <img
                         src={article.image}
                         alt={article.title}
