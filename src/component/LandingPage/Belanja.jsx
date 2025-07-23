@@ -20,14 +20,14 @@ const Belanja = () => {
     {
       id: 3,
       name: "Tempat Peralatan Mandi",
-      price: "Rp15000",
+      price: "Rp15.000",
       image: "/assets/alat_mandi.jpg",
       url: "https://www.tokopedia.com/"
     },
     {
       id: 4,
       name: "Eco-Tumbler (Tumbler Bambu)",
-      price: "Rp27000",
+      price: "Rp27.000",
       image: "/assets/tumbler.jpg",
       url: "https://www.tokopedia.com/"
     },
