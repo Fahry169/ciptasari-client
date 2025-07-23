@@ -210,7 +210,7 @@ export default function DetailBerita({ params }) {
             <FaHome className="w-4 h-4" />
           </Link>
           <span>/</span>
-          <Link href="/berita" className="hover:text-gray-900">
+          <Link href="/#berita" className="hover:text-gray-900">
             Berita Desa Ciptasari
           </Link>
         </nav>
