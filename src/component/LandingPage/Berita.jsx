@@ -105,7 +105,7 @@ const Berita = () => {
         </h1>
         <h2 className="text-xl md:text-left text-center text-gray-600">
           Menyajikan informasi terbaru tentang peristiwa, berita terkini, dan
-          artikel-artikel jurnalistik dari Desa Ciptasari.
+          artikel-artikel jurnalistik dari Desa Ciptasari
         </h2>
       </div>
 
