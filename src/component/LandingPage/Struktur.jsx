@@ -27,54 +27,54 @@ const Struktur = () => {
   const teamMembers = [
     { name: "Marto", position: "Kepala Desa", image: "/assets/kades.png" },
     {
-      name: "Oyan Sedjana",
+      name: "Oyan Sediana",
       position: "Sekretaris Desa",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Ahmad Sutrisno",
       position: "Kasi Pemerintahan",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Oyim Sumardi",
       position: "Kasi Kesejahteraan",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Rifki Aprilian Sukmara",
       position: "Kasi Pelayanan",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Rian Aprianto",
       position: "Kaur Keuangan",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Novi Arianti",
       position: "Kaur Umum & Perencanaan",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Herdiana Yusup",
       position: "Kepala Dusun 1",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Nana Suryana",
       position: "Kepala Dusun 2",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Sobar Sopian Sobur",
       position: "Kepala Dusun 3",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
     {
       name: "Eksa Hidayat",
       position: "Kepala Dusun 4",
-      image: "/assets/kades.png",
+      image: "/assets/people.jpeg",
     },
   ];
 

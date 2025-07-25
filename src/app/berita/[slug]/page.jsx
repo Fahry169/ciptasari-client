@@ -15,12 +15,33 @@ import NavbarSec from "@/component/NavbarSec";
 const newsData = [
   {
     id: 1,
-    title: "Sistem Bambu Lestari (Simbal): Inovasi KKN Unsika untuk Meningkatkan.......",
+    title:
+      "Mahasiswa KKN Unsika 2025 Ciptakan Sistem Bambu Lestari di Desa Ciptasari lewat Bank Sampah Organik dan Anorganik",
     excerpt:
-      "Mahasiswa KKN Unsika menggelar kegiatan Fun Learning terakhir mereka di SDN 2 Ciptasari, dengan pendekatan visual berbasis gambar dan suara.",
-    content: ``,
+      "Dalam upaya meningkatkan kesadaran lingkungan dan membangun budaya pengelolaan sampah yang berkelanjutan, mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (Unsika) tahun 2025 yang bertugas di Desa Ciptasari, Kecamatan Pangkalan, Kabupaten Karawang, melaksanakan program kerja unggulan bertajuk “Sistem Bambu Lestari",
+    content: `Desa Ciptasari, 23 Juli 2025 — Dalam upaya meningkatkan kesadaran lingkungan dan membangun budaya pengelolaan sampah yang berkelanjutan, mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (Unsika) tahun 2025 yang bertugas di Desa Ciptasari, Kecamatan Pangkalan, Kabupaten Karawang, melaksanakan program kerja unggulan bertajuk “Sistem Bambu Lestari”.
+
+Salah satu kegiatan utama dalam program ini adalah pembentukan bank sampah organik dan anorganik yang bertujuan untuk mengedukasi masyarakat tentang pentingnya memilah sampah sejak dari rumah. Program ini hadir sebagai respon terhadap permasalahan pengelolaan sampah rumah tangga yang masih belum optimal di beberapa wilayah desa.
+
+Bank sampah ini dirancang sebagai wadah bagi warga untuk mengumpulkan dan menyetorkan sampah sesuai dengan jenisnya:
+
+Sampah organik, seperti sisa makanan dan daun kering, diarahkan untuk diolah menjadi kompos alami yang dapat digunakan sebagai pupuk tanaman.
+
+Sampah anorganik, seperti plastik, botol bekas, dan kertas, akan dipilah dan disalurkan ke pihak pengepul atau bank sampah induk untuk didaur ulang.
+
+
+Mahasiswa KKN Unsika juga menyosialisasikan sistem ini melalui edukasi langsung ke rumah-rumah warga, serta melalui kegiatan penyuluhan yang melibatkan tokoh masyarakat dan perangkat desa. Warga diberi pemahaman tentang dampak jangka panjang sampah terhadap lingkungan serta cara mudah memilah dan mengelolanya.
+
+"Program Sistem Bambu Lestari ini tidak hanya mengajarkan warga tentang cara mengelola sampah, tetapi juga bagaimana menciptakan siklus ekonomi sirkular dari barang yang dianggap tidak berguna," ujar salah satu mahasiswa KKN yang menjadi koordinator program lingkungan.
+
+Kepala Desa Ciptasari memberikan apresiasi tinggi terhadap inisiatif mahasiswa KKN Unsika ini. Ia menilai program ini sangat relevan dengan kondisi desa dan bisa menjadi solusi konkret dalam pengurangan timbulan sampah di lingkungan masyarakat.
+
+"Kami berharap program seperti ini bisa terus berlanjut, bahkan setelah masa KKN selesai. Jika warga bisa terbiasa memilah sampah dan memanfaatkannya, lingkungan desa akan lebih bersih dan sehat," ujarnya.
+
+Melalui program kerja Sistem Bambu Lestari, mahasiswa KKN Unsika tak hanya memberikan edukasi, tetapi juga aksi nyata yang menyentuh langsung kebutuhan masyarakat. Pendirian bank sampah ini menjadi langkah awal menuju desa yang lebih hijau, sehat, dan berkelanjutan.
+`,
     image: "/assets/simbal.jpg",
-    author: "Administrator",
+    author: "BC",
     date: "23 Juli 2025",
     slug: "sistem-bambu-lestari-kkn-unsika",
   },
@@ -39,7 +60,7 @@ Produk LUMAWI yang berbasis bambu tidak hanya mencerminkan nilai estetika dan fu
 Digitalisasi UMKM melalui kolaborasi ini diharapkan mampu menjangkau pasar yang lebih luas, baik di tingkat regional maupun nasional. Dengan dukungan generasi muda, khususnya mahasiswa, masyarakat Desa Ciptasari memiliki peluang besar untuk mengembangkan usaha secara mandiri dan berkelanjutan.
 
 Melalui kolaborasi antara LUMAWI BUMDes dan mahasiswa KKN UNSIKA, semangat gotong royong, inovasi, dan pelestarian budaya bersatu dalam langkah nyata membangun ekonomi desa berbasis potensi lokal dan teknologi digital.`,
-    image: "/assets/kades.png",
+    image: "/assets/lumawi.jpg",
     author: "AD",
     date: "23 Juli 2025",
     slug: "lumawi-umkm-desa-ciptasari",

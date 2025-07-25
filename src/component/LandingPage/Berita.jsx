@@ -6,11 +6,11 @@ const Berita = () => {
   const newsData = [
   {
     id: 1,
-    title: "Sistem Bambu Lestari (Simbal): Inovasi KKN Unsika untuk Meningkatkan.......",
+    title: "Mahasiswa KKN Unsika 2025 Ciptakan Sistem Bambu Lestari di Desa Ciptasari lewat Bank Sampah Organik dan Anorganik",
     description:
-      "Pada tanggal 18 Juli 2025 Mahasiswa & Mahasiswi KKN Universitas Singaperbangsa Karawang melaksanakan kegiatan Fun Learning kedua dan terakhir mereka dalam rangka Pengabdian di Desa Ciptasari, Kecamatan Pangkalan Kabupaten Karawang. Selama satu hari di SDN 2 Ciptasari. Kegiatan ini bertujuan untuk menciptakan suasana belajar yang menyenangkan dan interaktif bagi anak-anak sekolah dasar, dengan pendekatan visual berbasis gambar dan suara.",
+      " Dalam upaya meningkatkan kesadaran lingkungan dan membangun budaya pengelolaan sampah yang berkelanjutan, mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (Unsika) tahun 2025 yang bertugas di Desa Ciptasari, Kecamatan Pangkalan, Kabupaten Karawang, melaksanakan program kerja unggulan bertajuk “Sistem Bambu Lestari”.",
     image: "/assets/simbal.jpg",
-    author: "Administrator",
+    author: "BC",
     date: "23 Juli 2025",
     slug: "sistem-bambu-lestari-kkn-unsika",
   },
@@ -19,7 +19,7 @@ const Berita = () => {
     title: "Mendorong Pemberdayaan Ekonomi Desa melalui Digitalisasi UMKM: Kolaborasi antara LUMAWI BUMDes Dengan Mahasiswa KKN UNSIKA",
     description:
       "Pemberdayaan ekonomi masyarakat desa semakin menguat melalui sinergi antara BUMDes Ciptasari dan mahasiswa Kuliah Kerja Nyata (KKN) Universitas Singaperbangsa Karawang (UNSIKA). Melalui unit usaha LUMAWI (Lumbung Awi), BUMDes Ciptasari mendorong digitalisasi UMKM sebagai strategi untuk meningkatkan pemasaran, produktivitas, dan keberlanjutan usaha lokal.",
-    image: "/assets/kades.png",
+    image: "/assets/lumawi.jpg",
     author: "AD",
     date: "23 Juli 2025",
     slug: "lumawi-umkm-desa-ciptasari",

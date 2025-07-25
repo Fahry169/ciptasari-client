@@ -8,28 +8,63 @@ const Belanja = () => {
       name: "Kotak Tisu",
       price: "Rp25.000",
       image: "/assets/tisu.jpg",
-      url: "https://www.tokopedia.com/"
+      url: "https://shopee.co.id/Kotak-Tisu-Bambu-Estetik-%E2%80%93-EcoTisu-i.1575267975.41609394590"
     },
     {
       id: 2,
       name: "Asbak dari Bambu",
       price: "Rp15.000",
       image: "/assets/asbak.jpg",
-      url: "https://www.tokopedia.com/"
+      url: ""
     },
     {
       id: 3,
       name: "Tempat Peralatan Mandi",
       price: "Rp15.000",
       image: "/assets/alat_mandi.jpg",
-      url: "https://www.tokopedia.com/"
+      url: "https://shopee.co.id/Bambath-Tempat-Peralatan-Mandi-Dari-Bambu-i.1575267975.26939003117"
     },
     {
       id: 4,
       name: "Eco-Tumbler (Tumbler Bambu)",
       price: "Rp27.000",
       image: "/assets/tumbler.jpg",
-      url: "https://www.tokopedia.com/"
+      url: "https://shopee.co.id/lumawiid?uls_trackid=539hl1tp0084&utm_content=4PLZAKSjHscfjPVWLAFPw8GeVp7y"
+    },
+    {
+      id: 5,
+      name: "Eco-Mug (Gelas Bambu)",
+      price: "Rp17.000",
+      image: "/assets/gelas.jpg",
+      url: "https://shopee.co.id/lumawiid?uls_trackid=539hl1tp0084&utm_content=4PLZAKSjHscfjPVWLAFPw8GeVp7y"
+    },
+    {
+      id: 6,
+      name: "Aroma Bumb (Lilin Aroma Terapi)",  
+      price: "Rp22.000",
+      image: "/assets/lilin.jpg",
+      url: "https://shopee.co.id/lumawiid?uls_trackid=539hl1tp0084&utm_content=4PLZAKSjHscfjPVWLAFPw8GeVp7y"
+    },
+    {
+      id: 7,
+      name: "Lampu Hias",
+      price: "Rp30.000", 
+      image: "/assets/lampu.jpg",
+      url: "https://shopee.co.id/lumawiid?uls_trackid=539hl1tp0084&utm_content=4PLZAKSjHscfjPVWLAFPw8GeVp7y"
+    },
+    {
+      id: 8,
+      name: "Topi Caping",
+      price: "Rp15.000", 
+      image: "/assets/topi.jpg",
+      url: "https://shopee.co.id/Topi-Caping-Bambu-Tradisional-Anyaman-i.1575267975.27189028752"
+    },
+    {
+      id: 9,
+      name: "Pengi dari Bambu",
+      price: "Rp12.000", 
+      image: "/assets/pengki.jpg",
+      url: "https://shopee.co.id/Pengki-dari-Bambu-Anyaman-%E2%80%93-Alat-Angkut-Tradisional-Serbaguna-i.1575267975.44009845260"
     },
   ];
 
@@ -46,13 +81,14 @@ const Belanja = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
-            <div className="overflow-hidden h-96">
+          <div key={product.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+            <div className="relative w-full h-64 bg-white">
               <Image
                 src={product.image} 
                 alt={product.name}
+                className="hover:scale-105 transition-transform duration-300 w-full h-full object-contain p-2"
                 width={400}
-                className="hover:scale-[102%] transition-transform duration-300 w-full h-full object-cover"
+                height={256}
               />
             </div>
             <div className="p-4 flex-1 flex flex-col justify-between">
