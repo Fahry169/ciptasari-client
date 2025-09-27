@@ -1,4 +1,5 @@
-import { Button, Link } from "@heroui/react";
+import { Button } from "@heroui/react";
+import Link from "next/link";
 import React from "react";
 import { FaUser, FaCalendarAlt } from "react-icons/fa";
 

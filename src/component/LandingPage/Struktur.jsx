@@ -23,58 +23,60 @@ const Struktur = () => {
     }
   };
 
-  // Data untuk card berdasarkan struktur organisasi yang sebenarnya
   const teamMembers = [
-    { name: "Marto", position: "Kepala Desa", image: "/assets/kades.png" },
+    { name: "Marto",
+      position: "Kepala Desa",
+      image: "/struktur/MARTO.png",
+    },
     {
       name: "Oyan Sediana",
       position: "Sekretaris Desa",
-      image: "/assets/people.jpeg",
+      image: "/struktur/OYAN.png",
     },
     {
       name: "Ahmad Sutrisno",
       position: "Kasi Pemerintahan",
-      image: "/assets/people.jpeg",
+      image: "/struktur/AHMAD.png",
     },
     {
       name: "Oyim Sumardi",
       position: "Kasi Kesejahteraan",
-      image: "/assets/people.jpeg",
+      image: "/struktur/OYIM.png",
     },
     {
       name: "Rifki Aprilian Sukmara",
       position: "Kasi Pelayanan",
-      image: "/assets/people.jpeg",
+      image: "/struktur/RIFKI.png",
     },
     {
       name: "Rian Aprianto",
       position: "Kaur Keuangan",
-      image: "/assets/people.jpeg",
+      image: "/struktur/RIAN.png",
     },
     {
       name: "Novi Arianti",
       position: "Kaur Umum & Perencanaan",
-      image: "/assets/people.jpeg",
+      image: "/struktur/NOVI.png",
     },
     {
       name: "Herdiana Yusup",
       position: "Kepala Dusun 1",
-      image: "/assets/people.jpeg",
+      image: "/struktur/HERDIANA.png",
     },
     {
       name: "Nana Suryana",
       position: "Kepala Dusun 2",
-      image: "/assets/people.jpeg",
+      image: "/struktur/NANA.png",
     },
     {
       name: "Sobar Sopian Sobur",
       position: "Kepala Dusun 3",
-      image: "/assets/people.jpeg",
+      image: "/struktur/SOBAR.png",
     },
     {
       name: "Eksa Hidayat",
       position: "Kepala Dusun 4",
-      image: "/assets/people.jpeg",
+      image: "/struktur/EKSA.png",
     },
   ];
 
@@ -109,20 +111,20 @@ const Struktur = () => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-64 h-72 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-[102%] transition-transform duration-300 cursor-pointer"
+              className="flex-shrink-0 w-64 h-80 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-[102%] transition-all cursor-pointer"
             >
-              <div className="h-52 bg-gray-100 overflow-hidden">
+              <div className="h-64 w-full overflow-hidden bg-red-600">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover object-center scale-110"
                   onError={(e) => {
                     e.target.src =
                       "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSIzMCIgZmlsbD0iI0Q1RDlERCIvPgo8cGF0aCBkPSJNNTAgMTUwQzUwIDEyNS4xNDcgNzEuNzYgMTA1IDEwMCAxMDVTMTUwIDEyNS4xNDcgMTUwIDE1MEg1MFoiIGZpbGw9IiNENUQ5REQiLz4KPC9zdmc+";
                   }}
                 />
               </div>
-              <div className="h-20 bg-red-700 p-3 flex flex-col justify-center">
+              <div className="h-18 bg-red-700 p-3 flex flex-col justify-center">
                 <p className="text-white font-bold text-sm leading-tight">
                   {member.position}
                 </p>
